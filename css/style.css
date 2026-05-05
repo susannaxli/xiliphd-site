@@ -213,8 +213,7 @@ ol.pub-list, ul.pub-list {
 }
 
 ol.pub-list li, ul.pub-list li {
-  padding: 16px 0;
-  border-bottom: 1px solid var(--rule);
+  padding: 14px 0;
   position: relative;
   counter-increment: item;
 }
@@ -240,16 +239,13 @@ ol.pub-list { padding-left: 32px; }
 .pub-title {
   font-weight: 600;
   font-size: 17px;
-  display: block;
-  margin-bottom: 4px;
+  margin-right: 6px;
 }
 
 .pub-authors {
   font-family: var(--sans);
   font-size: 14px;
   color: var(--text-muted);
-  display: block;
-  margin-bottom: 4px;
 }
 
 .pub-venue {
@@ -257,6 +253,8 @@ ol.pub-list { padding-left: 32px; }
   font-size: 13px;
   color: var(--text-faint);
   font-style: italic;
+  display: block;
+  margin-top: 4px;
 }
 
 .pub-honors {
